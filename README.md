@@ -22,4 +22,5 @@ Open brackets must be closed in the correct order.
 Every close bracket has a corresponding open bracket of the same type.  
 E.g. Valid string = { { [ ( ) ] ( ) } }  
 Invalid string = { ( [ ] } )  
+
 Hint: Use stack for this question. When you encounter an open bracket in the string, push it in the stack. When you encounter a closed bracket in the string, pop an element from the stack. If the closed bracket and the popped bracket matches, continue. Otherwise the string is invalid.   
